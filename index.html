@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FPL Login Page</title>
+    <link rel="stylesheet" href="file.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-section">
+        <h2>Welcome Back.<br />Log in to your account</h2>
+        <p class="error" id="error" style="color: red"></p>
+        <form>
+          <label for="email">Email/User ID</label>
+          <input type="text" id="email" name="email" />
+
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" />
+
+          <button type="submit" class="login-btn">LOG IN</button>
+
+          <div class="remember">
+            <input type="checkbox" id="remember" />
+            <label for="remember">Remember my User ID</label>
+          </div>
+
+          <div class="links">
+            <a href="#">Forgot password</a> |
+            <a href="#">Forgot Email/User ID</a>
+          </div>
+
+          <div class="help-link">
+            Need Help? <a href="#">Visit Login Help</a>
+          </div>
+        </form>
+      </div>
+
+      <div class="divider">
+        <span>OR</span>
+      </div>
+
+      <div class="register-section">
+        <h2>Don't have an FPL login yet? Register now for online access</h2>
+        <h4>Here are the benefits for registering</h4>
+        <ul>
+          <li>✔ 24 hour access to your information</li>
+          <li>✔ View and pay your bill securely</li>
+          <li>✔ Enroll in billing and payment programs</li>
+          <li>✔ Find energy and money saving tips</li>
+        </ul>
+        <a href="#" class="create-account">Create account</a>
+      </div>
+    </div>
+    <script src="file.js"></script>
+  </body>
+</html>
