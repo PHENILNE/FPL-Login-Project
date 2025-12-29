@@ -1,4 +1,5 @@
  FPL-Login-Project
+
  A simple and functional login system built with HTML, CSS, and JavaScript.  
 This project demonstrates core frontend skills including form handling, input validation, and basic authentication logic.
 
